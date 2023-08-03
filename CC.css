@@ -1,0 +1,151 @@
+/* Select Font */
+@font-face {
+    font-family: 'Didact Gothic', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+} 
+  
+/* Body image, font */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: 'Didact Gothic', sans-serif;
+   
+}
+
+/* grey backgroun */
+.Grey-box{
+    background: rgba(0,0,0,0.5);
+    width: 1200px;
+    height: 850px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 1.5%;
+  
+}
+
+/* For all the content */
+.contents{
+    padding: 8%;
+
+}
+
+/* Logo Setting */
+#logo{
+    display: block;
+    margin: auto;
+    width: 25%;
+
+}
+
+/* Heading */
+h1{
+    color: #10dc10;
+    text-align: center;
+    margin-top: 1%;
+    
+}
+  
+/* Buttons settings */
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rectangle_green {
+    width: 1000px;
+    height: 48px;
+    background-color: #10dc10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.5%;
+    
+}
+
+
+.b1{
+    margin: 3px;
+
+}
+
+/* List section settings */
+.list{
+    font-size: 12pt;
+    color:  white;
+    line-height: 150%;
+    margin-top: 2%;
+    margin-left: -1%;
+    font-family: 'Didact Gothic', sans-serif
+} 
+
+
+.Point{
+    font-size: 16pt;
+    font-weight: bold;
+    
+}
+
+
+.li1{
+    list-style-type: none;
+
+}
+
+
+.li1:before{
+    content: "\25A0";
+    font-size: 20px;
+    padding-right: 5px;
+    margin-left: -2.2%;
+}
+
+
+.li2{
+    list-style-type: none;
+}
+
+
+.li2:before{
+    content:"\21A6";
+    margin-left: -2.2%;
+    padding-right: 5px; ;
+}
+
+
+.li3{
+    list-style-type: none;
+    margin-left: -2.2%;
+}
+
+
+#line1{
+    width: 325px;
+    height: 30px;
+    background-color: rgb(240, 182, 76);
+    border-radius: 5px;
+    margin-top: -1.5%;
+    margin-left: 1.5%;
+    
+}
+
+
+#line2{
+    width: 580px;
+    height: 30px;
+    background-color: rgb(47, 200, 0);
+    border-radius: 5px;
+    margin-top: -1.5%;
+    margin-left: 1.5%;
+}
+
+
+#line3{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(205, 61, 61);
+    border-radius: 5px;
+    margin-top: -1.5%;
+    margin-left: 1.5%;
+}
